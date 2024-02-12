@@ -1,0 +1,109 @@
+
+
+body{
+	text-align: center;
+/*	background: lightskyblue;*/
+}
+
+h1{
+	margin-right: 0px;
+}
+
+input{
+	border-radius: 6px;
+	height: 22px;
+}
+
+#email{
+      width: 343px;
+}
+
+#em{
+	margin-right: 255px;
+}
+
+#do{
+      margin-right: 255px;	
+}
+
+#password{
+      width: 343px;
+}
+
+ #ag{
+ 	margin-right: 245px;
+ }
+#age {
+	height: 19px;
+	width: 19px;
+	margin-right: 255px;
+}
+/*label {
+
+	margin-right: 250px;
+}*/
+#na {
+	margin-right: 280px;
+}
+#pa {
+	margin-right: 280px;
+}
+#ge {
+	margin-right: 200px;
+}
+#co {
+	margin-right: 200px;
+}
+#te {
+	margin-right: 200px;
+}
+#dob {
+	margin-right: 230px;
+}
+#age{
+	margin-right: 15px;
+}
+/*#ma{
+	margin-right: 200px;
+	padding-bottom: 50px;
+}*/
+/*#gen{
+	margin-right: 340px;
+}*/
+/*#gend{
+	margin-right: 30px;
+}*/
+#fe{
+	margin-right: 210px;
+}
+#country{
+	margin-right: 250px;
+}
+#volume{
+	margin-right: 205px;
+}
+#fi{
+	margin-right: 210px;
+}
+#file{
+	margin-right: 70px;
+}
+#submit{
+	margin-right: 20px;
+}
+#border{
+	width: 500px;
+	height: 1000px;
+	border: 2px solid black ;
+	margin-left: 400px;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: lightskyblue;
+}
+span{
+	height: 30px;
+	width: 30px;
+	padding-bottom: 5px;
+}
+

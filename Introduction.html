@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Registration form</title>
+   <link rel="stylesheet" href="introduction.css">
+</head>
+<body>
+   <div id="border">
+   <H1>Registration form</H1>
+    <form action="thirdfile.html" method="GET">
+       <div>  <label for="fullname" id="na">Full name</label></div> <br>
+    <div>
+      <input type="text" name="first" id="fullname" placeholder="First" required>
+      <input type="text" name="last" id="fullname" placeholder="Last" required>
+    </div>
+     <br>
+     <div>  <label for="email" id="em">Email address</label></div> <br>
+    <div>
+      <input type="email" name="emailaddress" id="email" placeholder="Enter your email" required>
+    </div>
+     <br>
+     <div>  <label for="password" id="pa">Password</label></div> <br>
+    <div>
+      <input type="password" name="password" id="password" placeholder="Enter your password" required>
+    </div>
+     <br>
+     <div>  <label for="dob" id="do">Date of Birth</label></div> <br>
+    <div>
+      <input type="date" name="dob" id="dob" placeholder="Enter your password" required>
+    </div>
+    <br>
+    <div>
+      <input type="checkbox" name="age" id="age" placeholder="Enter your password" required>
+      <label for="age" id="ag">I am 18+</label>
+    </div>
+    <br>
+    <div>  <label for="gender" id="ge">What is your gender?</label></div> <br>
+    <div>
+           <input type="radio" name="gender" id="gender"><label for="gender" id="ma">Male</label>
+      <input type="radio" name="gender" id="gende"> <label for="gende" id="fe">Female</label>
+   </div>
+    <br>
+    <div>
+       <div>
+           <label for="country" id="co">Choose your country</label>
+       </div>
+       <br>
+       <select name="country" id="country" required>
+          <option value="">Pakistan</option>
+          <option value="India">India</option>
+          <option value="">Afghanistan</option>
+          <option value="">China</option>
+       </select>
+    </div>
+      <br>
+     <div>
+        <label for="textarea" id="te">Write about yourself</label>
+     </div>
+     <br>
+      <div>
+         <textarea name="textarea" id="textarea" placeholder="write about yourself" cols="45" rows="6"></textarea>
+      </div>
+      <br>
+      <div>
+        <label for="volume" id="te">Enter your volume</label>
+     </div>
+     <br>
+      <Div>
+         <input type="range" id="volume" min="0" max="10" required>
+      </Div>
+      <div>
+        <label for="file" id="fi">Choose your file</label>
+     </div>
+     <br>
+      <Div>
+         <input type="file" id="file" required>
+      </Div>
+       <br>
+      <Div>
+         <input type="submit" id="submit">
+         <input type="reset" id="reset">
+
+      </Div>
+    </form>
+        </div>
+</body>
+</html>
